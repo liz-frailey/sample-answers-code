@@ -1,0 +1,22 @@
+// This is for a basic FAQ where you want to index just the name and keywords field, in addition to the built-in entity type name filter. 
+
+  "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "keywords": [],
+      "name": "FAQ",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
