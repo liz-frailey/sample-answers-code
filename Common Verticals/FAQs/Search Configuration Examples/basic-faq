@@ -5,7 +5,7 @@
         "faq"
       ],
       "keywords": [],
-      "name": "FAQ",
+      "name": "FAQs",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
