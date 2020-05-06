@@ -1,9 +1,12 @@
+// Note: Please carefully read through this snippet to understand what you are doing. The snippet pulls in some default styling from the Answers JS library and adds custom CSS on it.
+
+\
 <div class="search_form"> </div>
-							<script src="https://assets.sitescdn.net/answers/v0.11.0/answers.min.js" onload="ANSWERS.domReady(initAnswers)" async defer></script>	
+<script src="https://assets.sitescdn.net/answers/v1.0.0/answers.min.js" onload="ANSWERS.domReady(initAnswers)" async defer></script>	
 							
 <!--styling search bar-->
 
-<link rel="stylesheet" href="https://assets.sitescdn.net/answers/v0.11.0/answers.css">
+<link rel="stylesheet" href="https://assets.sitescdn.net/answers/v1.0.0/answers.css">
 
 <style>
 ul[class*="yxt-"],
@@ -51,14 +54,14 @@ input[class*="yxt-"]
 <script>
 function initAnswers() {
 	ANSWERS.init({
-		apiKey: '<INSERT API KEY HERE>',
-		experienceKey: '<INSERT EXPERIENCE KEY HERE>',
+		apiKey: 'REPLACE_ME',
+		experienceKey: 'REPLACE_ME',
 		experienceVersion: 'PRODUCTION',
-		businessId: '<INSERT BUSINESS ID HERE>',
+		businessId: 'REPLACE_ME',
 		onReady: function () {
 			ANSWERS.addComponent('SearchBar', {
 				container: '.search_form',
-redirectUrl: '<INSERT REDIRECT URL HERE>',
+redirectUrl: 'REPLACE_ME',
 				promptHeader: 'You can ask us:',
 				searchText: 'What can we help you find?'
 			});
