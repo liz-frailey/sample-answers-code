@@ -4,7 +4,6 @@
       "entityTypes": [
         "faq"
       ],
-      "keywords": [],
       "name": "FAQs",
       "searchableFields": {
         "builtin.entityType": {
