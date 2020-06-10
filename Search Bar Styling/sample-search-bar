@@ -20,7 +20,7 @@ You will need to replace the api key, answers key, and redirect URL in the init 
 function initAnswers() {
 	ANSWERS.init({
 		apiKey: 'REPLACE_ME',
-		experienceKey: 'answers',
+		experienceKey: 'REPLACE_ME',
 		experienceVersion: 'PRODUCTION',
 		businessId: 'REPLACE_ME',
 		onReady: function () {
