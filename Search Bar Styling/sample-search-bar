@@ -26,7 +26,7 @@ function initAnswers() {
 		onReady: function () {
 			ANSWERS.addComponent('SearchBar', {
 				container: '.search_form',
-                redirectUrl: 'REPLACE_WITH_RESULTSPAGE_STAGING_URL',
+                		redirectUrl: 'REPLACE_WITH_RESULTS_PAGE_PREVIEW_URL',
 				promptHeader: 'You can ask us:',
 				searchText: 'What can we help you find?'
 			});
